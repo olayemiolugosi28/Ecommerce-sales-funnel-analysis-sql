@@ -1,9 +1,9 @@
 sql/
 
-01_data_exploration.sql
+## 01_data_exploration.sql
   SELECT * FROM `project-2508a3e1-ef82-4dc3-ac4.Salesdata.Sales Table` LIMIT 1000
 
-02_sales_funnel_analysis.sql
+## 02_sales_funnel_analysis.sql
   WITH funnel_stages AS (
 
   SELECT
@@ -36,7 +36,7 @@ SELECT
 FROM funnel_stages;
 
 
-03_traffic_source_analysis.sql
+## 03_traffic_source_analysis.sql
   WITH source_funnel AS (
   SELECT
   traffic_source,
@@ -49,8 +49,6 @@ FROM funnel_stages;
   GROUP BY traffic_source
 
 )
-
-
 SELECT
 traffic_source,
 views,
@@ -63,7 +61,7 @@ ROUND(purchase * 100.0 / cart) AS cart_to_purchase_conversion_rate,
 FROM source_funnel
 ORDER BY purchase DESC
 
-04_customer_journey_analysis.sql
+## 04_customer_journey_analysis.sql
   WITH user_journey AS (
   SELECT
     user_id,
@@ -77,7 +75,6 @@ ORDER BY purchase DESC
 
   HAVING MIN(CASE WHEN event_type = 'purchase' THEN event_date END) IS NOT NULL
 )
-
 SELECT
   COUNT(*) AS converted_users,
 
@@ -89,11 +86,10 @@ SELECT
 
   ROUND(AVG(TIMESTAMP_DIFF(purchase_time, view_time, MINUTE)), 2) 
     AS avg_total_journey_minutes
-
 FROM user_journey;
 
 
-05_revenue_analysis.sql
+## 05_revenue_analysis.sql
 WITH funnel_revenue AS (
   SELECT
     COUNT(DISTINCT CASE WHEN event_type = 'page_view' THEN user_id END) AS total_visitors,
@@ -103,7 +99,6 @@ WITH funnel_revenue AS (
 
   FROM `project-2508a3e1-ef82-4dc3-ac4.Salesdata.Sales Table`
 )
-
 SELECT
   total_visitors,
   total_buyers,
