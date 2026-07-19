@@ -10,15 +10,15 @@ The company wants to identify where customers drop off in the purchasing journey
 ## Dataset
 
 ## SQL Skills
-Common Table Expressions (CTEs)
-Aggregate Functions
-CASE Statements
-GROUP BY
-HAVING
-Conditional Aggregation
-Revenue KPIs
-Customer Funnel Analysis
-Conversion Rate Analysis
+Common Table Expressions (CTEs),
+Aggregate Functions,
+CASE Statements,
+GROUP BY,
+HAVING,
+Conditional Aggregation,
+Revenue KPIs,
+Customer Funnel Analysis,
+Conversion Rate Analysis,
 Customer Journey Analysis
 
 ## Project Workflow
