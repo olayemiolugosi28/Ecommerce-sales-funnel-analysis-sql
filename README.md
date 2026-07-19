@@ -27,10 +27,11 @@ Customer Journey Analysis
 2. Sales Funnel Analysis
 
 3. Traffic Source Performance
+![image alt](https://github.com/olayemiolugosi28/Ecommerce-sales-funnel-analysis-sql/blob/78d14a327849e500d6efb086cf796b7a1f50e8a3/Screenshot%202026-07-19%20154209.png)
 
-4. Customer Journey Analysis
+5. Customer Journey Analysis
 
-   ![image alt](https://github.com/olayemiolugosi28/Ecommerce-sales-funnel-analysis-sql/blob/18fce289fab63b3c2a8137b6276bf86b2b14531c/Screenshot%202026-07-19%20141216.png)
+![image alt](https://github.com/olayemiolugosi28/Ecommerce-sales-funnel-analysis-sql/blob/18fce289fab63b3c2a8137b6276bf86b2b14531c/Screenshot%202026-07-19%20141216.png)
 
 6. Revenue Analysis
 
