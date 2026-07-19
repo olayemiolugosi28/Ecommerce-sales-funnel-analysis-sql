@@ -34,6 +34,8 @@ Customer Journey Analysis
 
 6. Revenue Analysis
 
+![image alt](https://github.com/olayemiolugosi28/Ecommerce-sales-funnel-analysis-sql/blob/e83cdac3f6ab31735b9ab8f61fc3cacda1b3963b/Screenshot%202026-07-19%20153023.png)
+
 ## Results
 A total of 5,000 website visitors generated 826 purchases, resulting in an overall conversion rate of 16.52%. 
 
