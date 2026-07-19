@@ -1,1 +1,22 @@
+data/
 
+dataset_description.md
+# Dataset Description
+
+Source: Simulated E-commerce Dataset
+
+## Fields
+
+- user_id
+- event_type
+- traffic_source
+- amount
+- event_date
+
+## Event Types
+
+- page_view
+- add_to_cart
+- checkout_start
+- payment_info
+- purchase
