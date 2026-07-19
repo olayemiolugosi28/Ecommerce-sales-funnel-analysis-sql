@@ -25,8 +25,9 @@ Customer Journey Analysis
 1. Data Exploration
 
 2. Sales Funnel Analysis
+![image alt](https://github.com/olayemiolugosi28/Ecommerce-sales-funnel-analysis-sql/blob/2f91da17bddcfe9623417680f09a08629e6ba57d/Screenshot%202026-07-19%20154739.png)
 
-3. Traffic Source Performance
+4. Traffic Source Performance
 ![image alt](https://github.com/olayemiolugosi28/Ecommerce-sales-funnel-analysis-sql/blob/78d14a327849e500d6efb086cf796b7a1f50e8a3/Screenshot%202026-07-19%20154209.png)
 
 5. Customer Journey Analysis
