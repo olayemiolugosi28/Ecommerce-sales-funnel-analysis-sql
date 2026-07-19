@@ -63,10 +63,10 @@ The checkout experience should be continuously optimized by simplifying payment 
 The business should use ongoing KPI monitoring, including conversion rates, revenue per visitor, customer journey time, and marketing channel performance, to make data-driven decisions and identify opportunities for sustainable revenue growth.
 
 ## Tools Used
-Google BigQuery
-SQL
-GitHub
-Excel
+Google BigQuery,
+SQL,
+GitHub,
+Excel,
 Looker Studio
 
 ## Contact
